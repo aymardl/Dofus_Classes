@@ -3,17 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="fontAwesomeAll.css">
-
-
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
     <title>Dofus Classes</title>
 </head>
 <body class="body">
     <header class="header">
-        <img src="Dofus_Logo.png" alt="Dofus_Logo" class="Dofus_Logo">
+        <img src="../Image/Dofus_Logo.png" alt="Dofus_Logo" class="Dofus_Logo">
             <nav class="navbar">
-                <a href="#">Accueil</a>
+                <a href="../index.html">Accueil</a>
                 <a href="#">Classes</a> <!--donnera acces a toutes les Classes -->
                 <a href="#">Contact</a>
             </nav>
@@ -27,33 +24,23 @@
                     Mattis aliquam faucibus purus in massa tempor. Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. Ipsum consequat nisl vel pretium lectus quam. Nunc lobortis mattis aliquam faucibus purus in massa. Mattis vulputate enim nulla aliquet porttitor. Aliquet bibendum enim facilisis gravida neque convallis a cras. Eget velit aliquet sagittis id. Feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Enim ut sem viverra aliquet eget sit amet. At tellus at urna condimentum. Semper auctor neque vitae tempus quam pellentesque. Duis at tellus </p>
             </div>
             <div class="image">
-                <img src="iop.png" alt="iop">
+                <img src="../Image/iop.png" alt="iop">
             </div>
         </div>
         <div class="gender-buttons">
-            <button class="button-male" onclick="selectGender('male')">
-                <i class="fas fa-mars"></i> <!-- Icône de genre masculin -->
+            <button class="button-male" onclick="IsMale(true)">
+                homme  
             </button>
-            <button class="button-female" onclick="selectGender('female')">
-                <i class="fas fa-venus"></i> <!-- Icône de genre féminin -->
+            <button class="button-female" onclick="IsMale(false)">
+                femme
             </button>
         </div>
     </main>
     <footer class="footer">
 
     </footer>
+    <script src="../script.js"></script>
 </body>
 </html>
 
 
-
-
-
-
-
-
-<script>
-    function selectGender(gender) {
-        
-    }
-</script>
